@@ -26,7 +26,7 @@ void update_smoke(Smoke *smoke, UINT8 x, UINT8 y)
             0,
             x + TILE_SIZE, y - TILE_SIZE);
     }
-    else if(smoke->facing_right == 1)
+    else
     {
         move_metasprite_vflip(
             smoke_metasprites[smoke->smoke_frame_index],
